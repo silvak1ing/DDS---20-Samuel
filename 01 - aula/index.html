@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neymar Jr — Talento Brasileiro</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1b1b1b;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+        }
+
+        header h1 {
+            font-weight: 600;
+            font-size: 3rem;
+            color: #f4c430;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px #f4c430;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            position: relative;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 20px;
+            box-shadow: 0 0 30px #f4c430;
+            filter: drop-shadow(0 0 10px #f4c430);
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 600px;
+            height: 100%;
+            border-radius: 20px;
+            background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, transparent 100%);
+            pointer-events: none;
+        }
+
+        section {
+            margin-bottom: 50px;
+            background-color: #1e1e1e;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(244, 196, 48, 0.5);
+        }
+
+        section h2 {
+            color: #f4c430;
+            font-weight: 600;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-shadow: 0 0 8px #f4c430;
+        }
+
+        .biography p, .summary p, .stats p {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+        }
+
+        .biography ul {
+            list-style: none;
+            padding-left: 0;
+            font-size: 1.1rem;
+        }
+
+        .biography ul li {
+            margin-bottom: 8px;
+        }
+
+        .titles ul {
+            list-style: none;
+            padding-left: 20px;
+            font-size: 1.1rem;
+        }
+
+        .titles ul li {
+            margin-bottom: 6px;
+        }
+
+        .titles strong {
+            color: #ffd700;
+            display: block;
+            margin-top: 15px;
+            font-size: 1.2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 0 15px #f4c430;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px #ffd700;
+        }
+
+        .stats p {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 10px;
+            background-color: #1b1b1b;
+            color: #aaa;
+            font-size: 0.9rem;
+            box-shadow: 0 -4px 10px rgba(0,0,0,0.7);
+        }
+
+        a {
+            color: #f4c430;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            section {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Neymar Jr — Talento Brasileiro</h1>
+    </header>
+    <div class="container">
+        <div class="hero">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.pgz6bRyVrwv4flQlWPpZ-AHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Neymar comemorando um gol" />
+        </div>
+
+        <section class="description">
+            <h2>Descrição</h2>
+            <p>Neymar Jr é um dos jogadores mais talentosos da história do futebol brasileiro. Conhecido por sua habilidade, dribles e gols decisivos, construiu uma carreira marcada por conquistas em clubes e na seleção.</p>
+        </section>
+
+        <section class="biography">
+            <h2>Biografia</h2>
+            <ul>
+                <li><strong>Nome completo:</strong> Neymar da Silva Santos Júnior</li>
+                <li><strong>Nascimento:</strong> 5 de fevereiro de 1992, Mogi das Cruzes (SP), Brasil</li>
+                <li><strong>Altura:</strong> 1,75 m</li>
+                <li><strong>Posição:</strong> Atacante</li>
+                <li><strong>Pé preferido:</strong> Direito</li>
+            </ul>
+            <p><strong>Resumo:</strong> Neymar começou sua carreira nas categorias de base do Santos FC e rapidamente se destacou como um dos maiores talentos do futebol brasileiro. Foi campeão da Libertadores em 2011 e se transferiu para o Barcelona em 2013, formando o famoso trio MSN ao lado de Messi e Suárez. Em 2017, foi protagonista da maior transferência da história do futebol, ao se juntar ao Paris Saint-Germain. Em 2023, assinou com o Al-Hilal, da Arábia Saudita.</p>
+        </section>
+
+        <section class="titles">
+            <h2>Títulos e Conquistas</h2>
+            <ul>
+                <li><strong>Santos:</strong></li>
+                <ul>
+                    <li>Copa do Brasil: 2010</li>
+                    <li>Libertadores da América: 2011</li>
+                    <li>Campeonato Paulista: 2010, 2011, 2012</li>
+                </ul>
+                <li><strong>Barcelona:</strong></li>
+                <ul>
+                    <li>Liga dos Campeões da UEFA: 2014–15</li>
+                    <li>Campeonato Espanhol: 2014–15, 2015–16</li>
+                    <li>Copa do Rei: 2014–15, 2015–16, 2016–17</li>
+                    <li>Supercopa da Espanha: 2013</li>
+                    <li>Mundial de Clubes da FIFA: 2015</li>
+                </ul>
+                <li><strong>Paris Saint-Germain:</strong></li>
+                <ul>
+                    <li>Campeonato Francês (Ligue 1): 2017–18, 2018–19, 2019–20, 2021–22</li>
+                    <li>Copa da França: 2017–18, 2019–20, 2020–21</li>
+                    <li>Copa da Liga Francesa: 2017–18, 2019–20</li>
+                    <li>Supercopa da França: 2018, 2020</li>
+                </ul>
+                <li><strong>Seleção Brasileira:</strong></li>
+                <ul>
+                    <li>Copa das Confederações: 2013</li>
+                    <li>Medalha de Ouro Olímpico: 2016 (Rio de Janeiro)</li>
+                    <li>Sul-Americano Sub-20: 2011</li>
+                </ul>
+            </ul>
+        </section>
+
+        <section class="gallery">
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.h858ex5gwH6fw0ey2MYf3wHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Neymar levantando a TAÇA DA COPA DO MUNDO DE 2011 (2011)" title="Neymar levantando a taça da Libertadores (2011)" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/MSN_Barcelona_2015.jpg" alt="Neymar ao lado de Messi e Suárez no Barcelona" title="Neymar ao lado de Messi e Suárez no Barcelona" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Neymar_Olimpico_2016.jpg" alt="Neymar com a camisa da Seleção comemorando a medalha olímpica" title="Neymar com a camisa da Seleção comemorando a medalha olímpica" />
+                <img src="https://tse2.mm.bing.net/th/id/OIP.U1TDnysq9ryTabjkGq4wIwHaEo?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Neymar com o uniforme do PSG" title="Neymar com o uniforme do PSG" />
+                <img src="https://laopinion.com/wp-content/uploads/sites/3/2023/09/01767aa03a41949e4049867b4f1775c35cb9061cw.jpg?resize=360" alt="Neymar com o uniforme do Al-Hilal" title="Neymar com o uniforme do Al-Hilal" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Neymar_Santos_2009.jpg" alt="Foto de infância no Santos FC" title="Foto de infância no Santos FC" />
+            </div>
+        </section>
+
+        <section class="stats">
+            <h2>Estatísticas da Carreira</h2>
+            <p>Gols pela Seleção Brasileira: 79 (empatado com Pelé até 2023)</p>
+            <p>Gols no Santos: 136</p>
+            <p>Gols no Barcelona: 105</p>
+            <p>Gols no PSG: 118</p>
+            <p>Gols no Al-Hilal: LESÃO ETERNA </p>
+            <p>Gols totais oficiais (estimativa): mais de 400</p>
+            <p>Assistências oficiais: mais de 250</p>
+            <p>Jogos oficiais na carreira: mais de 600</p>
+        </section>
+    </div>
+    <footer>
+        Página criada com tema Neymar - &copy; 2024
+    </footer>
+</body>
+</html>
