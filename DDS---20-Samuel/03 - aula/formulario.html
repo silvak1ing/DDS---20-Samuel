@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Dados de login</legend>
+
+        <label for="caixa-nome">Nome:</label>
+        <input
+          type="text"
+          id="caixa-nome"
+          name="nome"
+          placeholder="Digite seu nome"
+          maxlength="15"
+          minlength="3"
+        />
+
+        <label for="caixa-email">Email:</label>
+        <input
+          type="email"
+          id="caixa-email"
+          name="email"
+          placeholder="Digite seu email"
+          required
+        />
+
+        <label for="caixa-senha">Senha:</label>
+        <input
+          type="password"
+          id="caixa-senha"
+          name="senha"
+          placeholder="Digite sua senha"
+          required
+        />
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Cancelar" />
+      </fieldset>
+
+      <h1>Outros inputs</h1>
+
+      <label for="data-nascimento">Data de nascimento:</label>
+      <input type="date" id="data-nascimento" name="nascimento" />
+
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" name="hora" />
+
+      <label for="data-hora">Data e hora:</label>
+      <input type="datetime-local" id="data-hora" name="datahora" />
+
+      <br /><br />
+
+      <label for="telefone">Telefone:</label>
+      <input
+        type="tel"
+        name="telefone"
+        id="telefone"
+        data-mask="(00) 00000-0000"
+        placeholder="(00) 00000-0000"
+        data-mask-selectonfocus="true"
+      />
+
+      <br /><br />
+
+      <label for="textao">
+        Textão:
+        <textarea
+          name="textao"
+          id="textao"
+          cols="30"
+          rows="5"
+          placeholder="Digite seu texto aqui"
+        ></textarea>
+      </label>
+
+      <br /><br />
+
+      <label for="cor">
+        Cor:
+        <input type="color" name="cor" id="cor" />
+      </label>
+
+      <br /><br />
+
+      <label for="numero">
+        Número:
+        <input
+          type="number"
+          name="numero"
+          id="numero"
+          min="-10"
+          max="50"
+          step="5"
+        />
+      </label>
+
+      <br /><br />
+
+      <label for="range">
+        Range: 0
+        <input
+          type="range"
+          name="range"
+          id="range"
+          min="-10"
+          max="50"
+          value="30"
+          step="5"
+        />
+        100
+      </label>
+
+      <br /><br />
+
+      <label for="checkbox">
+        TIK TOK:
+        <input type="checkbox" name="checkbox" id="checkbox" value="TIK TOK"/>
+        </label>
+        <label for="checkbox2">
+        <input type="checkbox" name="checkbox2" id="checkbox2"value="INSTAGRAM" />
+        INSTAGRAM
+      </label>
+
+      <br /><br />
+
+        <legend>Radio</legend>
+        <input type="radio" name="radio" id="radio1" value="opcao1" />
+        <label for="radio1">Desenvolvimento de Sistema</label>
+
+        <input type="radio" name="radio" id="radio2" value="opcao2" />
+        <label for="radio2">Etical Hacking</label>
+
+        <input type="radio" name="radio" id="radio3" value="opcao3">
+        <label for="radio3">Solda</label>
+        
+      <br /><br />
+
+      <label for="select">
+        Select:
+        <select name="select" id="select">
+          <option value="opcao1">IT</option>
+          <option value="opcao2">INATIVIDADE PARANORMAL</option>
+          <option value="opcao3">OS PARÇA</option>
+
+          <OPtgroup>
+
+            <option value="BR" label="BRASIL"></option>
+            <option value="Salvador" label="SALVADOR"></option>
+            <option value="Espirito Santo" label="CARIACICA"></option>
+
+          </OPtgroup>
+        </select>
+      </label>
+
+      <br /><br />
+
+      <label for="arquivo">
+        File:
+        <input type="file" name="arquivo" id="arquivo" />
+      </label>
+
+      <br /><br />
+
+      <label for="url">
+        URL:
+        <input
+          type="url"
+          name="url"
+          id="url"
+          placeholder="https://example.com"
+        />
+      </label>
+
+      <br /><br />
+
+      <label for="pesquisa">
+        Pesquisa:
+        <input
+          type="search"
+          name="pesquisa"
+          id="pesquisa"
+          placeholder="Pesquisar..."
+        />
+      </label>
+    </form>
+  </body>
+</html>
