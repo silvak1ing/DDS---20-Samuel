@@ -1,0 +1,85 @@
+/* reset simples */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222;
+    min-height: 100vh;
+}
+
+/* faixa superior */
+.topo {
+    width: 820px;
+    background: #d9d6d6;
+    padding: 36px 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 4px 4px 0 0;
+}
+.topo h1 {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin: 0;
+}
+
+/* área principal (painel vermelho) */
+.container-pagina {
+    width: 820px;
+    background: #d72f22; /* vermelho do painel */
+    padding: 22px;
+    margin-top: -6px; /* cola com a faixa superior */
+    border: 10px solid rgba(0,0,0,0); /* espaço visual */
+    box-shadow: inset 0 0 0 4px rgba(0,0,0,0.04);
+}
+
+/* área que contém os blocos verdes */
+.conteudos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* cada bloco verde */
+.bloco {
+    background: #2a8f23; /* verde */
+    padding: 26px 20px;
+    border: 6px solid rgba(0,0,0,0.08);
+    border-radius: 6px;
+    text-align: center;
+    min-height: 90px;
+}
+
+/* título dentro do bloco */
+.bloco h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0c2a06;
+    font-weight: 700;
+}
+
+/* parágrafos */
+.bloco p {
+    color: rgba(0,0,0,0.6);
+    margin: 6px 0;
+}
+
+/* rodapé cinza escuro */
+.rodape {
+    width: 820px;
+    background: #7a7776;
+    padding: 18px;
+    margin-top: 18px;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+}
+.rodape p {
+    color: #fff;
+    font-weight: 600;
+}
