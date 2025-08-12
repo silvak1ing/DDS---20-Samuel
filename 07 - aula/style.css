@@ -1,0 +1,44 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.icones {
+    width: 24px;
+    height: 24px;
+    color: rgb(32, 32, 32);
+    vertical-align: middle;
+
+    margin-right: 8px;
+    fill: #555;
+}
+
+#primaria {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    background-image: linear-gradient(to right, #007bff, #0056b3);
+}
+
+#secundaria {
+    background-color: #6c757d;
+    color: white;
+    padding: 1000px;
+    border-radius: 5px;
+    margin: auto;
+    background-image: linear-gradient(to right, #6c757d, #5a6268);
+    background-image: url('https://tse4.mm.bing.net/th/id/OIP.vCHAgvvhKRl_ghuSBbfs5QHaD_?rs=1&pid=ImgDetMain&o=7&rm=3');
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-attachment: scroll;
+}
