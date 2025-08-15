@@ -1,0 +1,86 @@
+body {
+  background-color: lightblue;
+  height: 2000px;
+}
+
+/* TIPOS ESTÁTICOS (PADRÃO) */
+.pai {
+  background-color: lightgreen;
+  height: 100px;
+  width: 100px;
+  position: static;
+  margin: 20px;
+}
+
+.filho {
+  background-color: lightcoral;
+  height: 100px;
+  width: 100px;
+  position: static;
+}
+
+#p-estatico {
+  background-color: rgb(167, 167, 17);
+}
+
+#f-estatico {
+  background-color: lightpink;
+}
+
+/* ELEMENTO FIXO */
+#p-fixo {
+  background-color: rgb(19, 17, 17);
+  position: fixed;
+  top: 0;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#f-fixo {
+  background-color: blue;
+}
+
+#p-grudada {
+  background-color: rgb(64, 145, 64);
+  width: 1000px;
+  height: 1000px;
+}
+
+#f-grudado {
+  background-color: red;
+  position: sticky;
+  top: 50%;
+  left: 50%;
+}
+
+/* TIPO RELATIVO */
+#p-relativa {
+  background-color: rgb(17, 167, 167);
+  width: 200px;
+  height: 200px;
+}
+
+#f-relativo {
+  background-color: rgb(167, 17, 167);
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+#p-absoluta {
+  background-color: rgb(167, 17, 17);
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+#f-absoluto {
+  background-color: rgb(17, 167, 17);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
