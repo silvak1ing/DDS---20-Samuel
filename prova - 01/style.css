@@ -1,0 +1,40 @@
+#linha-bloco{
+    background-color: #2298E1;
+    margin-top: 15px;
+    height: 600px;
+    width: 1910px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgb(29,29,29,29);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.mini-bloco{
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-left: 200px;
+    float: left;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgb(29,29,29,29);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.mini-bloco2{
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-right: 200px;
+    float: right;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgb(29,29,29,29);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}

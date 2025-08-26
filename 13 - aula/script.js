@@ -142,3 +142,12 @@ function calculo(n1, n2){
 
 var final = calculo(3,9)
 console.log("O resultado é:", final);
+
+// var resposta = prompt("Qual a sua idade?")
+// alert("sua idade e: " + resposta)
+// console.log("Sua idade é: " + resposta)
+
+do{
+    
+}
+while()
