@@ -18,11 +18,13 @@
     float: left;
     height: 500px;
     width: 500px;
+    display: grid; 
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgb(29,29,29,29);
     text-align: center;
     color: black;
     font-weight: bold;
+    padding: 30px;
 }
 
 .mini-bloco2{
@@ -37,4 +39,6 @@
     text-align: center;
     color: black;
     font-weight: bold;
+    padding: 30px;
+    
 }
