@@ -1,125 +1,99 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Conta Gotas — Campanha</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-  <div class="container row">
-    <div class="brand">
-      <img src="logo_conta_gotas.png" alt="Logo Conta Gotas" width="40" height="40">
-      <h1>Conta Gotas</h1>
-      <span class="pill">Água para Todos</span>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="como-economizar.html">Como economizar água?</a></li>
-      </ul>
-    </nav>
-    <form class="login">
-      <input type="email" placeholder="E-mail do voluntário" required>
-      <input type="password" placeholder="Senha" required>
-      <button class="btn btn-secondary">Entrar</button>
-    </form>
-  </div>
-</header>
-<main class="container">
-  <section class="hero">
-    <div class="card">
-      <h2>Cada gota conta</h2>
-      <p>Junte-se à campanha <strong>Conta Gotas</strong> para reduzir o desperdício de água em casa, na escola e na comunidade.</p>
-      <div class="cta">
-        <a class="btn btn-primary" href="como-economizar.html">Ver dicas por categoria</a>
-        <a class="btn btn-secondary" href="#video">Assistir vídeo institucional</a>
-      </div>
-    </div>
-    <div class="card" id="video">
-      <h2>Vídeo institucional</h2>
-      <div class="video-embed">
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo Institucional" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
-  <section class="grid cols-3">
-    <div class="card">
-      <h3>Educação</h3>
-      <p>Materiais didáticos e ações práticas para todos os públicos.</p>
-    </div>
-    <div class="card">
-      <h3>Voluntariado</h3>
-      <p>Faça login e acesse o painel para registrar atividades e metas.</p>
-    </div>
-    <div class="card">
-      <h3>Impacto</h3>
-      <p>Acompanhe indicadores e histórias de sucesso da campanha.</p>
-    </div>
-  </section>
-</main>
-<footer>
-  <div class="container">
-    <div class="support-logos">
-      <strong>Apoio:</strong>
-      <div class="slot" herf="">Patrocinador 1</div>
-      <div class="slot">Patrocinador 2</div>
-      <div class="slot">Parceiro 3</div>
-    </div>
-    <p class="notice">© 2025 ONG Água para Todos — Campanha Conta Gotas.</p>
-  </div>
-</footer>
-</body>
-</html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./style.css">
 
-<!-- como-economizar -->
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Como economizar água — Conta Gotas</title>
-  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 <header>
-  <div class="container row">
-    <div class="brand">
-      <img src="assets/logo_conta_gotas.png" alt="Logo Conta Gotas" width="40" height="40">
-      <h1>Conta Gotas</h1>
-      <span class="pill">Água para Todos</span>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="como-economizar.html" class="active">Como economizar água?</a></li>
-      </ul>
-    </nav>
-  </div>
+<nav class="nav_bar">
+<div class="cor-fundo" id="logo">
+<img src="logo_conta_gotas.png" alt="" width="250px">
+<img src="logo_liquefeito.png" alt="" width="250px" >
+</div>
+<div class="cor-fundo" id="navegacao">
+<a href="#" class="navBT">Home</a>
+<a href="./pag2.html" class="navBT">Como Economizar</a>
+<a href="#" class="navBT">Jogos</a>
+</div>
+</nav>
 </header>
-<main class="container">
-  <section class="card">
-    <h2>Dicas por categoria</h2>
-    <ul>
-      <li>Fechar a torneira enquanto escova os dentes</li>
-      <li>Usar balde para lavar o carro em vez de mangueira</li>
-      <li>Reutilizar água da máquina de lavar para outras tarefas</li>
-      <li>Regar plantas no início da manhã ou fim da tarde</li>
-    </ul>
-  </section>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<main>
+<div class="submain">
+<div class="div_mainP" id="vid-main">
+<h2>Conheça o nosso projeto</h2>
+<img src="2.jpg" alt="" width="500px">
+</div>
+
+<div class="div_mainP" id="icons-main">
+<div id="icons-redes" >
+<h2>Redes Sociais</h2>
+<img src="facebook.png" alt="" width="50px" class="icons-redess">
+<img src="instagram.png" alt=""width="50px"class="icons-redess">
+<img src="linkedin.png" alt=""width="50px"class="icons-redess"> <br>
+<img src="youtube.png" alt=""width="50px"class="icons-redess">
+<img src="tiktok.png" alt=""width="50px"class="icons-redess">
+<img src="letra-x.png" alt=""width="50px"class="icons-redess">
+</div>
+<div>
+<h2>Faça seu login</h2>
+<p>Não tem cadastro?<a href="#" class="ancor">Seja um voluntário</a></p>
+<input type="email" name="" id="inputs-main" placeholder="Email"><br>
+<input type="password" name="" id="inputs-main" placeholder="Senha"><br>
+<input type="checkbox" name="" id="" >Lembrar
+<a href="#" class="ancor">Esqueceu a senha?</a><br>
+<input type="button" value="Entrar" id="butao">
+</div>
+</div>
+</div>
+
+<div id="parceiros">
+<h2>APOIO</h2>
+<div id="img-empresas">
+<img src="acer.png" alt="" class="logo-parceiros">
+<img src="alibaba.png" alt="" class="logo-parceiros">
+<img src="canon.png" alt="" class="logo-parceiros">
+<img src="compac.png" alt="" class="logo-parceiros">
+<img src="hp.png" alt="" class="logo-parceiros">
+</div>
+
+</div>
+
 </main>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <footer>
-  <div class="container">
-    <div class="support-logos">
-      <strong>Apoio:</strong>
-      <div class="slot" >Patrocinador 1</div>
-      <div class="slot">Patrocinador 2</div>
-      <div class="slot">Parceiro 3</div>
-    </div>
-    <p class="notice">© 2025 ONG Água para Todos — Campanha Conta Gotas.</p>
-  </div>
+<div id="sub-footer">
+<div class="container_footer">
+<h2 class="h2-center">Sobre Nós</h2>
+<p>A campanha “Fecha a torneira” tem como objetivo conscientizar a população sobre a racionalização de água. Várias cidades do Brasil já estão sofrendo com o racionamento de água. A palavra do momento é economizar, afinal cada gota economizada é um ponto a mais na luta para a conservação da Água no Planeta.</p>
+<img src="logo_conta_gotas.png" alt="" width="300px" text-align="center">
+</div>
+<div class="container_footer">
+<h2 class="h2-center">Mapa do site</h2>
+<ul id="lista_footer">
+<li class="item_lista">HOME PAGE</li>
+<li class="item_lista">COMO ECONOMIZAR</li>
+<li class="item_lista">JOGOS</li>
+<li class="item_lista">CADASTRO</li>
+<li class="item_lista">LOGIN</li>
+</ul>
+</div>
+<div class="container_footer">
+<h2 class="h2-center">Contato</h2>
+<p>Telefone:4002-8922</p>
+<p>Whatsapp: 27 97070-7070</p>
+<p>Email: contagotas@gmail.com</p>
+<p>Endereç<br>Av. mal. mascarenhas de Moraes 2235 - Bento Ferreira, Vitória - ES</p>
+<p>Segunda a sexta-feira, das 7h às 19h Exceto feriados nacionais e locais</p>
+</div>
+</div>
 </footer>
+
 </body>
 </html>
